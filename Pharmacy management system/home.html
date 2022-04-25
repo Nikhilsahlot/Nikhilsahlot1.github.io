@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<body Background="decemberblog1-5000x2500.jpg">
+
+
+    <p style="font-size:30px;font-weight:bold;background-color:orange;margin-left: 10px;margin-top:60px ;">Click the button to Enter number of medicines.</p>
+
+    <button style="font-size:20px;font-weight:bold;background-color:lightblue;margin-left: 10px" onclick="myFunction()">Click to Enter number of medicines</button>
+
+    <script>
+        function myFunction() {
+            var x = document.createElement("INPUT");
+            x.setAttribute("type", "number");
+            x.setAttribute("value", "10");
+            document.body.appendChild(x);
+        }
+    </script>
+    <p style="font-size:30px;font-weight: bold;background-color:red;margin-left: 10px;margin-top:60px">Click the button to Enter name of medicine.</p>
+
+    <button style="font-size:20px;font-weight:bold;background-color:greenyellow;margin-left: 10px;" onclick="myFunction1()">Click to Enter name of medicines</button>
+
+    <script>
+        function myFunction1() {
+            var x = document.createElement("INPUT");
+            x.setAttribute("type", "text");
+            x.setAttribute("value", "Erase me");
+            document.body.appendChild(x);
+        }
+    </script>
+
+    <div class="container">
+
+        <ul class="pager">
+            <li class="previous"><a href="loginform.html">Previous</a></li>
+
+        </ul>
+    </div>
+
+
+</body>
+
+</html>
